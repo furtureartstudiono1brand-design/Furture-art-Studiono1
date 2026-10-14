@@ -1,0 +1,280 @@
+[11:56, 14/10/2026] asma kurshad: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Future Art Studio | Online Mall</title>
+<style>
+:root{--green:#087638;--dark:#064d28;--light:#f1faf3;--white:#fff;--text:#183326}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f7faf7;color:var(--text)}
+header{background:var(--green);color:white;padding:18px 5%;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.brand{font-size:23px;font-weight:bold}.brand small{display:block;font-size:12px;font-weight:normal;margin-top:5px}
+nav{background:var(--dark);padding:12px 5%;display:flex;gap:22px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-size…
+[12:44, 14/10/2026] asma kurshad: Pencil SketchesPortrait DrawingCanvas PaintingsDigital ArtUrdu CalligraphyArabic CalligraphyIslamic Wall ArtAbstract ArtHandmade CraftsSchool Art ProjectsKids Coloring SheetsCustom Illustrations
+[13:03, 14/10/2026] asma kurshad: Digital Face PortraitRealistic Digital PortraitCartoon PortraitCouple PortraitFamily PortraitCelebrity PortraitPet PortraitPhoto to Digital Art
+[13:09, 14/10/2026] asma kurshad: esAbstract Canvas ArtLandscape Canvas ArtNature Canvas ArtFloral Canvas ArtModern Canvas PaintingsMinimalist Canvas ArtMulti-Panel Canvas ArtCustom Canvas Printing
+[13:11, 14/10/2026] asma kurshad: goriesFamily Photo FramesCouple Photo FramesWedding Photo Wall ArtBirthday Photo FramesBaby Photo Wall ArtAnniversary Photo ArtPhoto Collage FramesCustom Name Frames
+[13:13, 14/10/2026] asma kurshad: Arabic Calligraphy FramesAyatul Kursi Wall ArtBismillah Wall ArtAllah Name Wall ArtMuhammad ﷺ Name Wall ArtIslamic Geometric ArtRamadan Wall ArtEid Wall Decorations
+[13:19, 14/10/2026] asma kurshad: Beginner Art KitsKids Art KitsPainting KitsDrawing KitsSketching KitsComplete Craft KitsFamily Art KitsGiftable DIY Kits
+[13:43, 14/10/2026] asma kurshad: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Future Art Studio Online Mall</title>
+<style>
+:root{--green:#087638;--dark:#064d28;--light:#eff9f1}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f7faf7;color:#183326}
+header{background:var(--green);color:white;padding:22px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-size:24px;font-weight:bold}
+.brand small{display:block;font-size:12px;margin-top:6px}
+nav{background:var(--dark);padding:13px 5%;display:flex;gap:20px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none}
+.hero{margin:22px auto;width:90%;padding:35px 25px;border-radius:15px;background:linear-gradient(120deg,#07552b,#21a65a);color:white}
+.hero h1{font-size:clamp(28px,5vw,44px);margin-top:0}
+.hero p{line-height:1.7}
+.wrap{width:90%;max-width:1200px;margin:28px auto}
+h2{color:var(--dark)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:white;border:1px solid #dce8de;border-radius:12px;padding:18px;box-shadow:0 3px 10px #1231}
+.card h3{margin:8px 0;color:var(--dark)}
+.card p{font-size:13px;color:#637568;line-height:1.5}
+button{border:0;border-radius:7px;padding:11px 15px;background:var(--green);color:white;font-weight:bold;cursor:pointer}
+button:hover{background:var(--dark)}
+.icon{font-size:32px}
+.sublist{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:18px}
+.subitem{background:white;border:1px solid #dce8de;border-radius:9px;padding:13px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.subitem button{padding:8px 10px;font-size:12px}
+.panel{background:white;border:1px solid #dce8de;border-radius:12px;padding:20px;margin:22px 0}
+.muted{color:#637568;font-size:14px}
+.hidden{display:none}
+footer{background:var(--dark);color:white;text-align:center;padding:25px;margin-top:40px;line-height:1.8}
+@media(max-width:600px){.hero,.wrap{width:92%}.hero{padding:25px 18px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{padding:12px}.card h3{font-size:15px}.sublist{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand">💚 Future Art Studio
+  <small>YOUR CREATIVE ONLINE MALL</small>
+ </div>
+ <div>ONLINE SHOPPING MALL</div>
+</header>
+<nav>
+ <a href="#home">Home</a>
+ <a href="#departments">Departments</a>
+ <a href="#browse">Browse Items</a>
+</nav>
+
+<section class="hero" id="home">
+ <h1>Welcome to Future Art Studio</h1>
+ <p>Explore personalised gifts, fashion, graphic design, drawing, painting, digital art and creative products — all in one place.</p>
+ <button onclick="document.getElementById('departments').scrollIntoView({behavior:'smooth'})">Explore Departments ↓</button>
+</section>
+
+<main class="wrap">
+ <section id="departments">
+  <h2>Our 10 Departments</h2>
+  <p class="muted">Select a department to explore its services and products.</p>
+  <div class="grid" id="departmentGrid"></div>
+ </section>
+
+ <section class="panel hidden" id="browse">
+  <button id="backButton">← All Departments</button>
+  <h2 id="selectedTitle"></h2>
+  <p class="muted" id="selectedDescription"></p>
+  <div class="sublist" id="subcategoryList"></div>
+  <p id="comingSoon" class="muted hidden">Coming Soon! This department will be available soon.</p>
+ </section>
+
+ <section class="panel hidden" id="itemInfo">
+  <button id="backToSubcategories">← Back to Department</button>
+  <h2 id="itemTitle"></h2>
+  <p id="itemMessage"></p>
+  <p class="muted">Product photos and prices will be added in the next stage.</p>
+ </section>
+</main>
+
+<footer>
+ <strong>Future Art Studio Online Mall</strong><br>
+ Creative Ideas • Personalised Gifts • Art & Design<br>
+ © <span id="year"></span> Future Art Studio
+</footer>
+
+<script>
+"use strict";
+
+const departments = [
+{
+ name:"Customised Gift Mug",icon:"☕",
+ items:[
+ "Magic Mug","Photo Mug","Name Mug","Photo Frames",
+ "Personalized Key Chain","Customized Cushion","Water Bottle",
+ "LED Photo Frame","Personalized Clock","Gift Hamper",
+ "Customized Name Plates","Gift Box"
+ ]
+},
+{
+ name:"T-Shirt Fashion & Clothing",icon:"👕",
+ items:[
+ "Custom T-Shirt","Polo Shirt","Name and Number Shirt",
+ "Photo Printed Shirt","Couple T-Shirt","Birthday T-Shirt",
+ "Hoodies & Sweatshirts","Photo Shirt","Cap Printing","Team Jersey"
+ ]
+},
+{
+ name:"Graphic Design & Printing",icon:"🎨",
+ items:[
+ "Logo Design","Business Card Design","Flyer Design",
+ "Brochure Design","Poster Design","Banner Design",
+ "Social Media Posts","YouTube Thumbnail","Facebook Cover",
+ "Menu Design","Products Label Design","Brand Identity Package"
+ ]
+},
+{
+ name:"Art Creativity Studio",icon:"🖌️",
+ items:[
+ "Pencil Sketches","Portrait Drawing","Canvas Paintings",
+ "Digital Art","Urdu Calligraphy","Arabic Calligraphy",
+ "Islamic Wall Art","Abstract Art","Handmade Crafts",
+ "School Art Projects","Kids Coloring Sheets","Custom Illustrations"
+ ]
+},
+{
+ name:"Drawing & Sketching",icon:"✏️",
+ items:[
+ "Pencil Sketching Frame","Graphic Drawing","Pencil Drawing",
+ "Shading & Blending","Still Life Drawing","3D Pencil Drawing",
+ "Male Portrait Sketch","Kids Portrait Sketch","Couple Portrait Sketch",
+ "Family Portrait Sketch","Custom Photo to Sketch","Face Drawing",
+ "Eye Drawing","Nose Drawing","Lips Drawing","Hand & Feet Drawing"
+ ]
+},
+{
+ name:"Painting & Canvas Art",icon:"🖼️",
+ items:[
+ "Modern Abstract Art","Color Splash Painting","Geometric Canvas Art",
+ "Minimalist Abstract","Luxury Abstract Wall Art","Mountain & Valley Art",
+ "River & Lake Painting","Sunset & Sunrise Art","Flowers & Garden Painting",
+ "Forest & Wildlife Art","Rose & Flower Canvas","Botanical Art",
+ "Floral Abstract","Flower Vase Painting","Custom Floral Artwork",
+ "Allah Names Canvas","Muhammad Calligraphy","Ayat-ul-Kursi Art",
+ "Surah & Quranic Verses","Islamic Wall Decor","Family Portrait Canvas",
+ "Couple Portrait Painting","Name & Date Canvas","Wedding Anniversary Art"
+ ]
+},
+{
+ name:"Digital Art",icon:"💻",
+ items:[
+ "Digital Face Portrait","Realistic Digital Portrait","Cartoon Portrait",
+ "Couple Portrait","Family Portrait","Celebrity Portrait",
+ "Pet Portrait","Photo to Digital Art"
+ ]
+},
+{
+ name:"Wall Art",icon:"🏞️",
+ items:[
+ "Abstract Canvas Art","Landscape Canvas Art","Nature Canvas Art",
+ "Floral Canvas Art","Modern Canvas Paintings","Minimalist Canvas Art",
+ "Multi-Panel Canvas Art","Custom Canvas Printing","Family Photo Frames",
+ "Couple Photo Frames","Wedding Photo Wall Art","Birthday Photo Frames",
+ "Baby Photo Wall Art","Anniversary Photo Art","Photo Collage Frames",
+ "Custom Name Frames","Arabic Calligraphy Frames","Ayatul Kursi Wall Art",
+ "Bismillah Wall Art","Allah Name Wall Art","Muhammad ﷺ Name Wall Art",
+ "Islamic Geometric Art","Ramadan Wall Art","Eid Wall Decorations"
+ ]
+},
+{
+ name:"DIY Art",icon:"✂️",
+ items:[
+ "Paper Flowers","Origami Kits","Paper Quilling","Scrapbooking",
+ "Paper Cutting Art","Pop-Up Cards","Handmade Greeting Cards",
+ "Paper Decoration Kits","Handmade Wall Decor","DIY Photo Frames",
+ "Decorative Name Plates","Wall Hanging Crafts","Decorative Lampshades",
+ "Painted Flower Pots","Table Decor","Seasonal Home Decorations",
+ "DIY Mug Decorating","Custom Sticker Making","Iron-On Transfer Crafts",
+ "T-Shirt Decoration Kits","Stamp Making Kits","Stencils & Templates",
+ "Printable Craft Patterns","DIY Packaging Designs","Beginner Art Kits",
+ "Kids Art Kits","Painting Kits","Drawing Kits","Sketching Kits",
+ "Complete Craft Kits","Family Art Kits","Giftable DIY Kits"
+ ]
+},
+{
+ name:"Calligraphy & Lettering",icon:"🖋️",
+ items:[],comingSoon:true
+}
+];
+
+const grid=document.getElementById("departmentGrid");
+const browse=document.getElementById("browse");
+const itemInfo=document.getElementById("itemInfo");
+
+function make(tag,cls,text){
+ const el=document.createElement(tag);
+ if(cls)el.className=cls;
+ if(text!==undefined)el.textContent=text;
+ return el;
+}
+
+function showDepartments(){
+ browse.classList.add("hidden");
+ itemInfo.classList.add("hidden");
+ document.getElementById("departments").scrollIntoView({behavior:"smooth"});
+}
+
+function showDepartment(index){
+ const d=departments[index];
+ itemInfo.classList.add("hidden");
+ browse.classList.remove("hidden");
+ document.getElementById("selectedTitle").textContent=d.name;
+ document.getElementById("selectedDescription").textContent=
+  d.comingSoon?"This department is coming soon.":"Explore "+d.name+" services and products.";
+ const list=document.getElementById("subcategoryList");
+ list.replaceChildren();
+ document.getElementById("comingSoon").classList.toggle("hidden",!d.comingSoon);
+
+ d.items.forEach(function(item){
+  const row=make("div","subitem");
+  row.appendChild(make("span","",item));
+  const btn=make("button","","View");
+  btn.type="button";
+  btn.addEventListener("click",function(){showItem(item,d.name);});
+  row.appendChild(btn);
+  list.appendChild(row);
+ });
+ browse.scrollIntoView({behavior:"smooth"});
+}
+
+function showItem(item,department){
+ browse.classList.add("hidden");
+ itemInfo.classList.remove("hidden");
+ document.getElementById("itemTitle").textContent=item;
+ document.getElementById("itemMessage").textContent=
+  "Department: "+department+". Product details will be published soon.";
+ itemInfo.scrollIntoView({behavior:"smooth"});
+}
+
+departments.forEach(function(d,index){
+ const card=make("article","card");
+ card.appendChild(make("div","icon",d.icon));
+ card.appendChild(make("h3","",index+1+". "+d.name));
+ card.appendChild(make("p","",d.comingSoon?"Coming Soon":d.items.length+" services and product types"));
+ const btn=make("button","","Explore Department →");
+ btn.type="button";
+ btn.addEventListener("click",function(){showDepartment(index);});
+ card.appendChild(btn);
+ grid.appendChild(card);
+});
+
+document.getElementById("backButton").addEventListener("click",showDepartments);
+document.getElementById("backToSubcategories").addEventListener("click",function(){
+ itemInfo.classList.add("hidden");
+ browse.classList.remove("hidden");
+ browse.scrollIntoView({behavior:"smooth"});
+});
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
